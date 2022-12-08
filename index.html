@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+
+    <title>Silly Mozart Stories!</title>
+</head>
+<body>
+
+    <h1>Silly Mozart Story!</h1>
+    <h2>Answer the questions to make a silly story about Mozart, the famous composer!</h2>
+    <br>
+        
+        <div class="top-container">
+            <img class="mozartImage" src="Mozart.png">
+                <form id="mozartForm">
+                    <label>What is your name?</label><br>
+                    <input type="text" id="nombre"><br><br>
+                    <label>Type an adjective:</label><br>
+                    <input type="text" id="adjective"><br><br>
+                    <label>Type a color:</label><br>
+                    <input type="text" id="color"><br><br>
+                    <label>Type a food:</label><br>
+                    <input type="text" id="food"><br><br>
+                    <label>Type a place:</label><br>
+                    <input type="text" id="place"><br><br>
+                    <label>Type another adjective:</label><br>
+                    <input type="text" id="adjective1"><br><br>
+                    <label>Type another color:</label><br>
+                    <input type="text" id="color1"><br><br>
+                    <label>Type another food:</label><br>
+                    <input type="text" id="food1"><br><br>
+                    <button type="button" class="mozartButton" onclick="mozartStory()">Create Story!</button>
+                    <input type="button" class="resetButton" onclick="resetButton()" value="Start Again!">
+                </form>
+            <p id="mozartText"></p>
+        </div>
+
+
+        <script src="script.js"></script>
+</body>
+</html>

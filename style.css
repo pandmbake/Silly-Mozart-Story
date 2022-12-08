@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(68, 125, 125);
+}
+
+
+h1, h2 {
+   text-align: center;
+   color: white;
+
+}
+
+h1 {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 3rem;
+    margin-top: .3em;
+    color:gold
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+.top-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 2em;
+   align-items: center;
+   justify-items: center;
+   margin-bottom: 3em;;
+  
+}
+
+.mozartImage {
+    width: 30rem;
+    height: 27rem;
+    margin-left: 3em;
+}
+
+.mozartButton {
+    cursor: pointer;
+}
+
+#mozartForm {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 3em;
+    font-size: .8em;
+    color: gold;
+}
+
+#mozartText {
+    visibility: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .9em;
+    margin-right: 7em;
+}
+
+.resetButton{
+    cursor: pointer;
+}
+
+
+
+
+
+ 
